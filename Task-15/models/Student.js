@@ -23,7 +23,6 @@ const students = new mongoose.Schema({
         type:Date,
         default:Date.now},
     age: Number,
-    class: String,
-    createdAt:{type:Date,default:Date.now}
+    class: String
 })
 module.exports= mongoose.model('students',students);
